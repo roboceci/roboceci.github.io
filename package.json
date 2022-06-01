@@ -1,0 +1,24 @@
+{
+  "name": "roboceci.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:dev": "parcel src/index.pug --open",
+    "build:prod": "rm -rf dist && parcel build src/index.pug --dist-dir dist && cp CNAME dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roboceci/roboceci.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roboceci/roboceci.github.io/issues"
+  },
+  "homepage": "https://github.com/roboceci/roboceci.github.io#readme",
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.6.0",
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  }
+}
